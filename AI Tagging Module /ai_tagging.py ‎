@@ -1,0 +1,41 @@
+```python
+‎# ai_tagging.py
+‎
+‎import cv2
+‎import numpy as np
+‎
+‎def tag_video(video_path):
+‎    # Load pre-trained object detection model (e.g., YOLOv3 or MobileNet)
+‎    net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
+‎    layer_names = net.getUnconnectedOutLayersNames()
+‎
+‎    cap = cv2.VideoCapture(video_path)
+‎    detected_objects = set()
+‎
+‎    while cap.isOpened():
+‎        ret, frame = cap.read()
+‎        if not ret:
+‎            break
+‎
+‎        blob = cv2.dnn.blobFromImage(frame, 1/255.0, (416, 416), swapRB=True, crop=False)
+‎        net.setInput(blob)
+‎        outputs = net.forward(layer_names)
+‎
+‎        for output in outputs:
+‎            for detection in output:
+‎                scores = detection[5:]
+‎                class_id = np.argmax(scores)
+‎                confidence = scores[class_id]
+‎                if confidence> 0.5:
+‎                    detected_objects.add(str(class_id))  # Replace with class name mapping
+‎
+‎    cap.release()
+‎    return list(detected_objects)
+‎
+‎# Example usage
+‎if __name__ == "__main__":
+‎    tags = tag_video("sample_video.mp4")
+‎    print("Detected objects:", tags)
+‎```
+‎
+‎> 🔍 Note: You’ll need YOLO weights/config files and class labels. You can replace with MobileNet or any other model depending on your setup.

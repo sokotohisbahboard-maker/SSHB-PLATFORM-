@@ -1,0 +1,34 @@
+
+‎```html
+‎<!-- index.html -->
+‎<!DOCTYPE html>
+‎<html lang="en">
+‎<head>
+‎  <meta charset="UTF-8">
+‎  <title>SSHB Platform</title>
+‎  <link rel="stylesheet" href="style.css">
+‎</head>
+‎<body>
+‎  <header>
+‎    <h1>Welcome to SSHB Surveillance Platform</h1>
+‎  </header>
+‎
+‎  <main>
+‎    <form id="reportForm">
+‎      <label for="location">Location:</label>
+‎      <input type="text" id="location" name="location" required>
+‎
+‎      <label for="details">Details:</label>
+‎      <textarea id="details" name="details" required></textarea>
+‎
+‎      <label for="evidence">Upload Evidence:</label>
+‎      <input type="file" id="evidence" name="evidence">
+‎
+‎      <button type="submit">Submit Report</button>
+‎    </form>
+‎  </main>
+‎
+‎  <script src="app.js"></script>
+‎</body>
+‎</html>
+‎```

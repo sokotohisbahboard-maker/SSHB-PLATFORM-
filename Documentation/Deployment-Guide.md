@@ -1,4 +1,4 @@
-‎```markdown
+markdown
 ‎# SSHB Platform – Deployment Guide
 ‎Steps to deploy the platform on a secure server or cloud environment.
 ‎
@@ -60,5 +60,4 @@
 ‎- Use environment variables for secrets.
 ‎- Enable HTTPS with SSL.
 ‎- Monitor logs and alerts regularly.
-‎```
 ‎

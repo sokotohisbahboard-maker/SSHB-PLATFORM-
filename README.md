@@ -136,3 +136,128 @@ Sokoto State Hisbah Board Surveillance & intelligence platform
 ‎
 ‎```
 ‎
+‎
+‎```markdown
+‎# 🛡️ SSHB Platform – Surveillance & Intelligence System
+‎
+‎## 🎯 Project Overview
+‎
+‎SSHB Platform is a digital surveillance and intelligence system designed for the Sokoto State Hisbah Board. It enables agents to submit field reports with evidence, integrates AI tagging for video analysis, and provides commanders with a real-time dashboard for decision-making.
+‎
+‎---
+‎
+‎## 🚀 Features
+‎
+‎- 📍 Submit reports with location, details, and evidence
+‎- 🎥 AI tagging of video content (crowd, fire, suspicious activity)
+‎- 📊 Commander dashboard with live alerts and map view
+‎- 🔐 Role-based access control (Commander, Staff, Agent)
+‎- 💬 Secure messaging between agents and command center
+‎
+‎---
+‎
+‎## 🛠️ Installation
+‎
+‎### Backend
+‎```bash
+‎cd backend
+‎npm install
+‎node server.js
+‎```
+‎
+‎*Frontend*
+‎Open `frontend/index.html` in your browser
+‎
+‎*AI Module*
+‎```bash
+‎cd ai
+‎python ai_tagging.py
+‎```
+‎
+‎---
+‎
+‎*🧪 API Testing*
+‎
+‎Use Postman or Pynt to test endpoints:
+‎
+‎- `POST /api/auth/login`
+‎- `POST /api/reports`
+‎- `POST /api/ai/tag`
+‎
+‎Include JWT token in headers:
+‎```
+‎Authorization: Bearer <your_token>
+‎```
+‎
+‎See full guide in `documentation/api-testing.md`
+‎
+‎---
+‎
+‎*📊 Dashboard Design*
+‎
+‎Commander dashboard includes:
+‎
+‎- 🔴 Live Alerts Panel
+‎- 📍 Interactive Map View
+‎- 📋 Intel Logs Table
+‎- 🧠 AI Surveillance Feed
+‎- 💬 Secure Messaging
+‎
+‎See full design in `documentation/dashboard.md`
+‎
+‎---
+‎
+‎*📁 Folder Structure*
+‎
+‎```
+‎SSHB-Platform/
+‎├── backend/
+‎│   └── server.js
+‎├── frontend/
+‎│   ├── index.html
+‎│   └── app.js
+‎├── ai/
+‎│   └── ai_tagging.py
+‎├── documentation/
+‎│   ├── dashboard.md
+‎│   ├── api-testing.md
+‎│   ├── API.md
+‎│   ├── Training-Guide.md
+‎│   ├── System-Architecture.md
+‎│   └── Deployment-Guide.md
+‎├── README.md
+‎├── CONTRIBUTING.md
+‎├── LICENSE.md
+‎└──.gitignore
+‎```
+‎
+‎---
+‎
+‎*📚 Technologies Used*
+‎
+‎- Node.js + Express (Backend)
+‎- HTML + JS (Frontend)
+‎- Python (AI Tagging)
+‎- Postman / Pynt (API Testing)
+‎- Leaflet.js / Chart.js (Dashboard)
+‎
+‎---
+‎
+‎*🙌 Acknowledgements*
+‎
+‎Special thanks to Sokoto State Hisbah Board and all contributors who supported the development of this platform.
+‎
+‎---
+‎
+‎*📬 Maintainer Contact*
+‎
+‎*Name*: [Your Name]
+‎*Email*: [your.email@example.com]
+‎*GitHub*: [github.com/YourUsername](https://github.com/YourUsername)
+‎
+‎---
+‎
+‎*📄 License*
+‎
+‎This project is licensed under the MIT License – see the `LICENSE.md` file for details.
+‎```

@@ -1,4 +1,4 @@
-Sokoto State Hisbah Board Surveillance & intelligence platform 
+Surveillance & intelligence platform Sokoto State Hisbah Board 
 
 ‎```markdown
 ‎# 🛡️ SSHB Platform

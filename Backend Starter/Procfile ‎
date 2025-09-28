@@ -1,9 +1,0 @@
-‎```
-‎web: node server.js
-‎```
-‎
-‎*ai/Procfile*
-‎```
-‎web: python ai_tagging.py
-‎```
-‎

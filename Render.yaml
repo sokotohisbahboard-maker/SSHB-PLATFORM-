@@ -1,0 +1,22 @@
+yaml
+‎services:
+‎  - type: web
+‎    name: sshb-backend
+‎    env: node
+‎    rootDir: backend
+‎    buildCommand: npm install
+‎    startCommand: npm start
+‎
+‎  - type: web
+‎    name: sshb-frontend
+‎    env: static
+‎    rootDir: frontend
+‎    buildCommand: ""
+‎    staticPublishPath: frontend
+‎
+‎  - type: web
+‎    name: sshb-ai
+‎    env: python
+‎    rootDir: ai
+‎    buildCommand: pip install -r requirements.txt
+‎    startCommand: python ai_tagging.py

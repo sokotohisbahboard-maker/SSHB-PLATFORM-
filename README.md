@@ -1,5 +1,3 @@
-Surveillance & intelligence platform Sokoto State Hisbah Board 
-
 ‎```markdown
 ‎# 🛡️ SSHB Platform
 ‎
@@ -251,9 +249,9 @@ Surveillance & intelligence platform Sokoto State Hisbah Board
 ‎
 ‎*📬 Maintainer Contact*
 ‎
-‎*Name*: [Your Name]
-‎*Email*: [your.email@example.com]
-‎*GitHub*: [github.com/YourUsername](https://github.com/YourUsername)
+‎*Name*: [Sokoto State Hisbah Board]
+‎*Email*: [hisbahboardsokotooffice@gmail.com]
+‎*GitHub*: [github.com/YourUsername/www.sokotohisbhaboard.com](https://github.com/yourusername/sokotohisbahboard.co.za)
 ‎
 ‎---
 ‎

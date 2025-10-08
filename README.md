@@ -67,7 +67,7 @@
 ‎### 1. Clone the Repository
 ‎
 ‎```bash
-‎git clone https://github.com/YourUsername/SSHB-Platform.git
+‎git clone https://github.com/abdullahi Umar muazu/SSHB-Platform.git
 ‎cd SSHB-Platform
 ‎```
 ‎
@@ -251,7 +251,7 @@
 ‎
 ‎*Name*: [Sokoto State Hisbah Board]
 ‎*Email*: [hisbahboardsokotooffice@gmail.com]
-‎*GitHub*: [github.com/YourUsername/www.sokotohisbhaboard.com](https://github.com/yourusername/sokotohisbahboard.co.za)
+‎*GitHub*: [github.com/abdullahi Umar muazu/www.sokotohisbhaboard.com](https://github.com/abdullahi Umar muazu/sokotohisbahboard.co.za)
 ‎
 ‎---
 ‎
